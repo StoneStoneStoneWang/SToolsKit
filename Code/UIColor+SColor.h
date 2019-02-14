@@ -14,6 +14,8 @@ NS_ASSUME_NONNULL_BEGIN
 
 + (NSArray <NSNumber *>*)s_transformByHexColorStr:(NSString *)colorStr;
 
++ (UIColor *)s_transformToColorByHexColorStr:(NSString *)colorStr;
+
 @end
 
 NS_ASSUME_NONNULL_END

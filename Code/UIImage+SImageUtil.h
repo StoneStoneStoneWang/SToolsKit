@@ -14,6 +14,12 @@ NS_ASSUME_NONNULL_BEGIN
 
 + (UIImage *)s_transformToImageForView:(UIView *)view;
 
++ (UIImage *)s_transformFromHexColor:(NSString *)colorStr;
+
++ (UIImage *)s_transformFromAlphaHexColor:(NSString *)colorStr;
+
++ (UIImage *)s_transformFromColor:(UIColor *)color;
+
 @end
 
 NS_ASSUME_NONNULL_END

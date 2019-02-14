@@ -16,6 +16,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 + (UIColor *)s_transformToColorByHexColorStr:(NSString *)colorStr;
 
++ (UIColor *)s_transformTo_AlphaColorByHexColorStr:(NSString *)colorStr;
 @end
 
 NS_ASSUME_NONNULL_END

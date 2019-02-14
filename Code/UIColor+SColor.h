@@ -12,7 +12,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface UIColor (SColor)
 
-- (NSArray <NSNumber *>*)s_transformByHexColorStr:(NSString *)colorStr;
++ (NSArray <NSNumber *>*)s_transformByHexColorStr:(NSString *)colorStr;
 
 @end
 

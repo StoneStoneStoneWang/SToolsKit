@@ -10,7 +10,7 @@
 
 @implementation UIColor (SColor)
 
-- (NSArray <NSNumber *>*)s_transformByHexColorStr:(NSString *)colorStr {
++ (NSArray <NSNumber *>*)s_transformByHexColorStr:(NSString *)colorStr {
     
     NSString *cString = [[colorStr stringByTrimmingCharactersInSet:[NSCharacterSet whitespaceAndNewlineCharacterSet]] uppercaseString];
     

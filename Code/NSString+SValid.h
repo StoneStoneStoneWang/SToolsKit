@@ -19,7 +19,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 - (BOOL)s_validPhone;
 
-bool s_validPhone(NSString *phone);
+//bool s_validPhone(NSString *phone);
 
 /*
  @param email
@@ -29,7 +29,7 @@ bool s_validPhone(NSString *phone);
 
 - (BOOL)s_validEmail;
 
-bool s_validEmail(NSString *email);
+//bool s_validEmail(NSString *email);
 
 @end
 

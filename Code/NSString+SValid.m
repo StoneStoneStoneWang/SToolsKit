@@ -20,10 +20,10 @@
     return self.length == 11 && [self hasPrefix:@"1"];
 }
 
-bool s_validPhone(NSString *phone) {
-    
-    return [phone s_validPhone];
-}
+//bool s_validPhone(NSString *phone) {
+//
+//    return [phone s_validPhone];
+//}
 
 + (BOOL)s_validEmail:(NSString *)email { return [email s_validEmail]; }
 
@@ -37,9 +37,9 @@ bool s_validPhone(NSString *phone) {
     
     return [emailTest evaluateWithObject:self];
 }
-bool s_validEmail(NSString *email) {
-    
-    return [email s_validEmail];
-}
+//bool s_validEmail(NSString *email) {
+//
+//    return [email s_validEmail];
+//}
 
 @end

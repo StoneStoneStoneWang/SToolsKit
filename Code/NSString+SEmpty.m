@@ -16,10 +16,10 @@
     
     return true;
 }
-bool s_isEmpty(NSString *argu) {
-    
-    return [argu s_isEmpty];
-}
+//bool s_isEmpty(NSString *argu) {
+//
+//    return [argu s_isEmpty];
+//}
 
 
 - (BOOL)s_isEmptyByTrimming {
@@ -28,9 +28,9 @@ bool s_isEmpty(NSString *argu) {
     
     return [self stringByTrimmingCharactersInSet:NSCharacterSet.whitespaceAndNewlineCharacterSet].length;
 }
-bool s_isEmptyByTrimming(NSString *argu) {
-    
-    return [argu s_isEmptyByTrimming];
-}
+//bool s_isEmptyByTrimming(NSString *argu) {
+//
+//    return [argu s_isEmptyByTrimming];
+//}
 
 @end

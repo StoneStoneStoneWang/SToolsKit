@@ -20,3 +20,5 @@
 #import "UIImage+SImageUtil.h"
 
 #import "UINavigationBar+SBackgroundColor.h"
+
+#import "NSObject+SOpenUrl.h"

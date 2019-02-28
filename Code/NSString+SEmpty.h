@@ -14,11 +14,11 @@ NS_ASSUME_NONNULL_BEGIN
 
 - (BOOL)s_isEmpty;
 
-bool s_isEmpty(NSString *argu);
+//bool s_isEmpty(NSString *argu);
 
 - (BOOL)s_isEmptyByTrimming;
 
-bool s_isEmptyByTrimming(NSString *argu);
+//bool s_isEmptyByTrimming(NSString *argu);
 
 @end
 

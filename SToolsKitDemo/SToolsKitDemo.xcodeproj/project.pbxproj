@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		6C1A5F71221508CE004196DC /* UIImage+SImageUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C1A5F70221508CE004196DC /* UIImage+SImageUtil.m */; };
 		6C1A5F7422150A23004196DC /* UINavigationBar+SBackgroundColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C1A5F7322150A23004196DC /* UINavigationBar+SBackgroundColor.m */; };
+		6C81C5C42227D3D200115FAB /* NSString+SDateConvert.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C81C5C32227D3D200115FAB /* NSString+SDateConvert.m */; };
+		6CC147942227D1050003CF5A /* NSObject+SOpenUrl.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CC147932227D1050003CF5A /* NSObject+SOpenUrl.m */; };
 		6CEBF5BF2212677700599F4F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CEBF5BE2212677700599F4F /* AppDelegate.m */; };
 		6CEBF5C22212677700599F4F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CEBF5C12212677700599F4F /* ViewController.m */; };
 		6CEBF5C52212677700599F4F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6CEBF5C32212677700599F4F /* Main.storyboard */; };
@@ -45,6 +47,10 @@
 		6C1A5F70221508CE004196DC /* UIImage+SImageUtil.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImage+SImageUtil.m"; sourceTree = "<group>"; };
 		6C1A5F7222150A23004196DC /* UINavigationBar+SBackgroundColor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UINavigationBar+SBackgroundColor.h"; sourceTree = "<group>"; };
 		6C1A5F7322150A23004196DC /* UINavigationBar+SBackgroundColor.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UINavigationBar+SBackgroundColor.m"; sourceTree = "<group>"; };
+		6C81C5C22227D3D200115FAB /* NSString+SDateConvert.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+SDateConvert.h"; sourceTree = "<group>"; };
+		6C81C5C32227D3D200115FAB /* NSString+SDateConvert.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+SDateConvert.m"; sourceTree = "<group>"; };
+		6CC147922227D1050003CF5A /* NSObject+SOpenUrl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+SOpenUrl.h"; sourceTree = "<group>"; };
+		6CC147932227D1050003CF5A /* NSObject+SOpenUrl.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+SOpenUrl.m"; sourceTree = "<group>"; };
 		6CEBF5BA2212677700599F4F /* SToolsKitDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SToolsKitDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6CEBF5BD2212677700599F4F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		6CEBF5BE2212677700599F4F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -161,6 +167,8 @@
 				6CEBF5F1221268E500599F4F /* NSString+SValid.m */,
 				6CEBF5F32212692C00599F4F /* NSString+SEmpty.h */,
 				6CEBF5F42212692C00599F4F /* NSString+SEmpty.m */,
+				6C81C5C22227D3D200115FAB /* NSString+SDateConvert.h */,
+				6C81C5C32227D3D200115FAB /* NSString+SDateConvert.m */,
 				6CEBF5F7221293E800599F4F /* NSDate+STimeStamp.h */,
 				6CEBF5F8221293E800599F4F /* NSDate+STimeStamp.m */,
 				6CEBF5FA221295FD00599F4F /* UIColor+SColor.h */,
@@ -169,6 +177,8 @@
 				6C1A5F70221508CE004196DC /* UIImage+SImageUtil.m */,
 				6C1A5F7222150A23004196DC /* UINavigationBar+SBackgroundColor.h */,
 				6C1A5F7322150A23004196DC /* UINavigationBar+SBackgroundColor.m */,
+				6CC147922227D1050003CF5A /* NSObject+SOpenUrl.h */,
+				6CC147932227D1050003CF5A /* NSObject+SOpenUrl.m */,
 				6CEBF5FD2212962400599F4F /* SLog.h */,
 				6CEBF5FE22129B1600599F4F /* SCommon.h */,
 				6CEBF5F622126ACB00599F4F /* SToolsKit.h */,
@@ -308,9 +318,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				6C1A5F7422150A23004196DC /* UINavigationBar+SBackgroundColor.m in Sources */,
+				6CC147942227D1050003CF5A /* NSObject+SOpenUrl.m in Sources */,
 				6CEBF5FC221295FD00599F4F /* UIColor+SColor.m in Sources */,
 				6CEBF5C22212677700599F4F /* ViewController.m in Sources */,
 				6CEBF5F52212692C00599F4F /* NSString+SEmpty.m in Sources */,
+				6C81C5C42227D3D200115FAB /* NSString+SDateConvert.m in Sources */,
 				6CEBF5CD2212677900599F4F /* main.m in Sources */,
 				6CEBF5F2221268E500599F4F /* NSString+SValid.m in Sources */,
 				6CEBF5BF2212677700599F4F /* AppDelegate.m in Sources */,

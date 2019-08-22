@@ -120,7 +120,7 @@
     
     [[NSScanner scannerWithString:aString] scanInt:&a];
     
-    return [UIColor colorWithRed:r / 255.0f green:g / 255.0f blue:b / 255.0f alpha:a / 100];
+    return [UIColor colorWithRed:r / 255.0f green:g / 255.0f blue:b / 255.0f alpha:a / 100.0f];
 }
 
 @end

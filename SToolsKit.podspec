@@ -2,7 +2,7 @@
 Pod::Spec.new do |s|
 
 s.name         = "SToolsKit"
-s.version      = "0.0.6"
+s.version      = "0.0.7"
 s.summary      = "A Lib For tools."
 s.description  = <<-DESC
 SToolsKit是一个工具类。

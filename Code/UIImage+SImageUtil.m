@@ -38,7 +38,7 @@
 }
 + (UIImage *)s_transformFromAlphaHexColor:(NSString *)colorStr {
     
-    UIColor *color = [UIColor s_transformToColorByHexColorStr:colorStr];
+    UIColor *color = [UIColor s_transformTo_AlphaColorByHexColorStr:colorStr];
     
     CGRect rect=CGRectMake(0.0f, 0.0f, 1.0f, 1.0f);
     UIGraphicsBeginImageContext(rect.size);
